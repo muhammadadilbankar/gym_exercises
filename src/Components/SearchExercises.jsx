@@ -9,6 +9,7 @@ const SearchExercises = () => {
     const [search, setSearch] = useState('')
     const [exercises, setExercises] = useState([])
     const [bodyParts, setBodyParts] = useState([])
+    const [bodyPart, setBodyPart] = useState("")
 
     useEffect(() => {
         const fetchExercisesData = async () => {
